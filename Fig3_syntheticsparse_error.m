@@ -18,12 +18,11 @@ gap = [2,10,200];
 order = [1,2,3]; % processing order
 p = 5; % oversampling parameter
 maxiter = 0; %number of subspace iterations
-rank = 25; %target rank
 
 figure
 for v = 1:3
     % form tensor
-    X = cpsparse_tensor(n,sparsity,gap(v),n);
+    X = cpsparse_tensor(n,sparsity,gap(v));
 
     Q = sptensor(X);
     mode = length(size(X)); 
