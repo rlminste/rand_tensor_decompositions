@@ -15,3 +15,9 @@ Decompositions in the Tucker Format." SIMODS 2020
 
 # Toolbox Requirements
 This code requires two tensor packages for MATLAB, Tensorlab and Tensor Toolbox
+
+# Data
+The data for Tab6_enron.m can be found at 
+```
+http://frostt.io/tensors/enron/
+```
